@@ -15,6 +15,7 @@ we are doing the following to automate device placement if a GPU is available:
 """
 
 from keras.backend.torch import core
+from keras.backend.torch import distribution_lib
 from keras.backend.torch import image
 from keras.backend.torch import linalg
 from keras.backend.torch import math

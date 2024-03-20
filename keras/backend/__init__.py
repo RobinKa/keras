@@ -35,8 +35,6 @@ elif backend() == "jax":
     from keras.backend.jax import *  # noqa: F403
 elif backend() == "torch":
     from keras.backend.torch import *  # noqa: F403
-
-    distribution_lib = None
 elif backend() == "numpy":
     from keras.backend.numpy import *  # noqa: F403
 
